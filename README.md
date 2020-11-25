@@ -23,11 +23,11 @@ Install [PYTHON](https://www.python.org/downloads/), version 3.9.0
   django-admin startproject mysite
   ```
 - Verifiy project files:
-  * Please note that the last variable, in this case "mysite" is the name of your project.  So it's important not to get mixed up.  A very well format to remember would be calling it "[name of project] project".  Later I will explain in more detail.
+  * Please note that the last variable, in this case "mysite" is the name of your project.
 ```
-mysite/
+mysite/ { root }
   manage.py
-  mysite/
+  mysite/ { actual site }
     __init__.py
     settings.py
     urls.py
