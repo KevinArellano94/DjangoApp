@@ -12,4 +12,14 @@ Install [PYTHON](https://www.python.org/downloads/), version 3.9.0
   ```cmd
   python -m ensurepip --default-pip
   ```
-## Install Python Modules
+## Install Django
+- Installation was followed via documentation on [DJANGO](https://docs.djangoproject.com/en/3.1/intro/install/):
+  ```cmd
+  python -m django --version
+  ```
+- Create the project:
+  * Please note that the last variable, in this case "mysite" is the name of your project.  So it's important not to get mixed up.  A very well format to remember would be calling it "[name of project]project".
+  ```cmd
+  cd / {to destination location}
+  django-admin startproject mysite
+  ```
