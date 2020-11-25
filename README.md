@@ -7,4 +7,9 @@ Install [PYTHON](https://www.python.org/downloads/), version 3.9.0
   ```cmd
   python --version
   ```
-## 
+## Install Python Modules
+- Install [PIP MODULE](https://docs.python.org/3/installing/index.html) by typing in Powershell:
+  ```cmd
+  python -m ensurepip --default-pip
+  ```
+## Install Python Modules
