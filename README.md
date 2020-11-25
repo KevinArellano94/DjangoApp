@@ -18,8 +18,19 @@ Install [PYTHON](https://www.python.org/downloads/), version 3.9.0
   python -m django --version
   ```
 - Create the project:
-  * Please note that the last variable, in this case "mysite" is the name of your project.  So it's important not to get mixed up.  A very well format to remember would be calling it "[name of project] project".
   ```cmd
   cd / {to destination location}
   django-admin startproject mysite
+  ```
+- Verifiy project files:
+  * Please note that the last variable, in this case "mysite" is the name of your project.  So it's important not to get mixed up.  A very well format to remember would be calling it "[name of project] project".  Later I will explain in more detail.
+```
+mysite/
+  manage.py
+    mysite/
+      __init__.py
+      settings.py
+      urls.py
+      asgi.py
+      wsgi.py
   ```
