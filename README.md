@@ -27,10 +27,10 @@ Install [PYTHON](https://www.python.org/downloads/), version 3.9.0
 ```
 mysite/
   manage.py
-    mysite/
-      __init__.py
-      settings.py
-      urls.py
-      asgi.py
-      wsgi.py
+  mysite/
+    __init__.py
+    settings.py
+    urls.py
+    asgi.py
+    wsgi.py
   ```
